@@ -1,0 +1,108 @@
+*{box-sizing:border-box}body{margin:0;background:#fff6fa;color:#674e58;font-family:Arial,"Noto Sans KR",sans-serif;background-image:radial-gradient(#edc6d4 1px,transparent 1px);background-size:18px 18px}button,input,select{font:inherit}header{text-align:center;padding:34px 16px 20px}header .eyebrow{font-size:10px;letter-spacing:3px;color:#bd7892}header h1{margin:7px 0 5px;font-family:Georgia,serif;letter-spacing:2px;color:#bd6687;font-size:29px}header h1 span{font-weight:normal;color:#d9a6b9}header p{margin:0;font-size:12px;color:#a37e8c}main{width:min(1180px,calc(100% - 28px));margin:auto;display:grid;grid-template-columns:360px 1fr;gap:18px;padding-bottom:40px}.panel,.preview-wrap{background:#fffdfd;border:1px solid #e9c8d4;box-shadow:0 10px 30px #b76e8b12}.controls{padding:15px}.section{padding:12px 4px 17px;border-bottom:1px dashed #e7cbd5}.section:last-child{border:0}.section h2{font-family:Georgia,serif;font-size:12px;letter-spacing:1.5px;color:#c06d8c;margin:0 0 11px}.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}label{display:block;font-size:10px;color:#98717f;margin:8px 0}input,select{width:100%;margin-top:5px;border:1px solid #e8cdd7;background:#fffafb;color:#6d5660;border-radius:3px;padding:9px 10px;outline:none}input:focus,select:focus{border-color:#d990aa}.check{display:flex;align-items:center;gap:7px}.check input{width:auto;margin:0}.presets{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.presets button,.actions button{border:1px solid #e4c4d0;background:#fff9fb;color:#9a687b;padding:8px;border-radius:4px;cursor:pointer}.presets button.on{background:#f7dbe5;border-color:#d88aa7;color:#a34e70}.actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:12px}.actions .primary{background:#d77f9e;color:white;border-color:#d77f9e}.preview-wrap{padding:18px;min-width:0}.preview-label{text-align:center;font:10px Georgia,serif;letter-spacing:3px;color:#bc8397;margin-bottom:14px}#capture{padding:34px 22px;background:#f9edf2;min-height:540px;display:flex;flex-direction:column;align-items:center;justify-content:center}.ticket{--main:#d77f9e;--paper:#fff8fb;position:relative;display:grid;background:var(--paper);color:#684d57;border:1px solid var(--main);box-shadow:0 12px 28px #8e53641f;overflow:hidden}.ticket.landscape{width:min(720px,100%);aspect-ratio:2.05/1;grid-template-columns:1fr 155px}.ticket.portrait{width:min(430px,100%);min-height:650px;grid-template-columns:1fr;grid-template-rows:1fr 165px}.ticket:before,.ticket:after{content:"";position:absolute;width:24px;height:24px;background:#f9edf2;border:1px solid var(--main);border-radius:50%;z-index:4}.ticket.landscape:before{right:143px;top:-13px}.ticket.landscape:after{right:143px;bottom:-13px}.ticket.portrait:before{bottom:153px;left:-13px}.ticket.portrait:after{bottom:153px;right:-13px}.ticket-main{padding:24px 27px;position:relative}.ticket-main:after{content:"";position:absolute;inset:8px;border:1px solid rgba(180,120,145,.28);pointer-events:none}.topline{display:flex;justify-content:space-between;font:9px Georgia,serif;letter-spacing:2px;color:var(--main)}.photo-row{display:flex;align-items:center;justify-content:center;gap:18px;margin:20px 0 14px}.photo-frame{text-align:center}.photo-frame>div{width:91px;height:91px;border-radius:50%;border:3px double var(--main);padding:4px;background:#fff;overflow:hidden}.photo-frame img{width:100%;height:100%;object-fit:cover;border-radius:50%}.photo-placeholder{display:grid;place-items:center;font:30px Georgia,serif;color:var(--main);background:linear-gradient(135deg,#fff,#f9dce7)!important}.photo-frame span{display:block;margin-top:5px;font:9px Georgia,serif;letter-spacing:1px;color:var(--main)}.center-deco{font-size:25px;color:var(--main)}.pair-title{text-align:center}.pair-title small{display:block;font:7px Georgia,serif;letter-spacing:2px;color:#aa8492}.pair-title strong{display:block;font:26px Georgia,serif;letter-spacing:3px;color:var(--main);margin-top:3px}.route{margin:14px auto 0;max-width:390px;border-top:1px solid #e8d5dc;border-bottom:1px solid #e8d5dc;padding:8px;display:grid;grid-template-columns:1fr 24px 1fr;text-align:center;align-items:center}.route small,.stub small{display:block;font-size:7px;letter-spacing:1.5px;color:#ad8996}.route b{font:10px Georgia,serif;color:#765966}.message{text-align:center;font:italic 11px Georgia,serif;margin-top:12px;color:#8d6474}.keywords{text-align:center;font-size:7px;letter-spacing:2px;margin-top:8px;color:#b17a8f}.stub{border-left:1px dashed var(--main);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:16px;position:relative}.portrait .stub{border-left:0;border-top:1px dashed var(--main)}.stub-deco{font-size:25px;color:var(--main);margin-bottom:7px}.stub b{font:16px Georgia,serif;color:var(--main);margin:4px 0 14px}.date span{font:10px Georgia,serif}.barcode{width:92px;height:32px;margin:13px 0 5px;background:repeating-linear-gradient(90deg,#6c535d 0 2px,transparent 2px 4px,#6c535d 4px 5px,transparent 5px 8px)}#stubNo{font:8px monospace;letter-spacing:1px}#dearlySign{margin-top:12px;font:8px Georgia,serif;letter-spacing:2px;color:#bb8b9c}.theme-angel{--main:#a9a6c9!important;--paper:#fffefe!important}.theme-vintage{--main:#a77a65!important;--paper:#fbf4e8!important}.theme-night{--main:#7778a9!important;--paper:#f5f3ff!important}.theme-gothic{--main:#6d5869!important;--paper:#f8f3f7!important}.theme-kitsch{--main:#d75f87!important;--paper:#fff3d8!important}@media(max-width:850px){main{grid-template-columns:1fr}.preview-wrap{order:-1}.ticket.landscape{min-width:610px}.preview-wrap{overflow:auto}#capture{width:max-content;min-width:100%}}@media(max-width:520px){header{padding-top:24px}.two{grid-template-columns:1fr}.actions{grid-template-columns:1fr}.controls{padding:12px}.preview-wrap{padding:10px}}
+/* v2: photo shapes */
+.photo-frame>div{border-radius:0}.photo-frame img{border-radius:0}
+.photo-shape-circle .photo-frame>div,.photo-shape-circle .photo-frame img{border-radius:50%}
+.photo-shape-rounded .photo-frame>div,.photo-shape-rounded .photo-frame img{border-radius:20px}
+.photo-shape-square .photo-frame>div,.photo-shape-square .photo-frame img{border-radius:0}
+.photo-shape-heart .photo-frame>div,.photo-shape-heart .photo-frame img{clip-path:polygon(50% 92%,12% 57%,5% 34%,9% 18%,21% 8%,36% 8%,50% 21%,64% 8%,79% 8%,91% 18%,95% 34%,88% 57%);border-radius:0}
+.photo-shape-diamond .photo-frame>div,.photo-shape-diamond .photo-frame img{clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);border-radius:0}
+.photo-shape-arch .photo-frame>div,.photo-shape-arch .photo-frame img{border-radius:48px 48px 8px 8px}
+.photo-shape-stamp .photo-frame>div{border:5px dotted var(--main);padding:3px;border-radius:2px}.photo-shape-stamp .photo-frame img{border-radius:0}
+.type-decor{position:absolute;inset:0;pointer-events:none}.stub-label{font:7px Georgia,serif;letter-spacing:2px;color:var(--main);margin-bottom:6px}
+
+/* LOVE — romantic keepsake */
+.type-love .ticket-main{background:linear-gradient(135deg,var(--paper),#fff)}
+.type-love .type-decor:after{content:"♡  ୨୧  ♡";position:absolute;right:18px;bottom:12px;color:var(--main);opacity:.18;font:27px Georgia,serif;letter-spacing:6px}
+.type-love .pair-title strong{font-style:italic}
+
+/* CINEMA — film strip */
+.type-cinema{border-width:2px}.type-cinema .topline{border-bottom:3px double var(--main);padding-bottom:8px}
+.type-cinema .photo-frame>div{border:4px solid var(--main)}.type-cinema .route{border:1px solid var(--main);background:rgba(255,255,255,.5)}
+.type-cinema .type-decor:before,.type-cinema .type-decor:after{content:"";position:absolute;left:12px;right:12px;height:7px;background:repeating-linear-gradient(90deg,var(--main) 0 11px,transparent 11px 21px);opacity:.18}
+.type-cinema .type-decor:before{top:10px}.type-cinema .type-decor:after{bottom:10px}.type-cinema .barcode{height:42px}
+
+/* TRAIN — railway ticket */
+.type-train .ticket-main{background:repeating-linear-gradient(0deg,transparent 0 31px,rgba(0,0,0,.025) 31px 32px)}
+.type-train .route{border:2px solid var(--main);border-radius:3px}.type-train .route>span{font-size:18px}
+.type-train .pair-title strong{font-family:"Courier New",monospace;font-weight:bold}
+.type-train .type-decor:after{content:"RAILWAY · DEARLY LINE";position:absolute;left:18px;bottom:11px;font:7px "Courier New",monospace;letter-spacing:3px;color:var(--main);opacity:.35}
+
+/* BOARDING PASS — airline */
+.type-flight{border-radius:10px}.type-flight .ticket-main{padding-top:34px}.type-flight .topline{font-family:Arial,sans-serif;font-weight:bold}
+.type-flight .pair-title strong{font-family:Arial,sans-serif;font-weight:800}.type-flight .route{border:0;background:rgba(255,255,255,.55);padding:11px}
+.type-flight .route>span{font-size:0}.type-flight .route>span:after{content:"✈";font-size:18px;color:var(--main)}
+.type-flight .type-decor:before{content:"BOARDING PASS";position:absolute;left:17px;top:52px;writing-mode:vertical-rl;font:bold 7px Arial,sans-serif;letter-spacing:3px;color:var(--main);opacity:.22}.type-flight .barcode{height:24px}
+
+/* CONCERT — bold live ticket */
+.type-concert .ticket-main{background:linear-gradient(135deg,var(--paper),#fff)}
+.type-concert .ticket-main:before{content:"✦";position:absolute;left:28px;top:50px;font-size:56px;color:var(--main);opacity:.07}
+.type-concert .pair-title strong{font-family:Arial,sans-serif;font-weight:900;text-transform:uppercase}.type-concert .pair-title small{letter-spacing:4px}
+.type-concert .route{border:0;border-top:2px solid var(--main);border-bottom:2px solid var(--main)}
+.type-concert .stub{background:var(--main);color:#fff}.type-concert .stub *{color:#fff!important}
+.type-concert .barcode{background:repeating-linear-gradient(90deg,#fff 0 2px,transparent 2px 4px,#fff 4px 5px,transparent 5px 8px)}
+.type-concert .type-decor:after{content:"LIVE · ONE NIGHT ONLY";position:absolute;right:20px;bottom:11px;font:bold 7px Arial,sans-serif;letter-spacing:3px;color:var(--main);opacity:.38}
+
+/* ADMISSION — stamped entry ticket */
+.type-admission .topline{border:1px solid var(--main);padding:6px}.type-admission .pair-title strong{border-bottom:1px solid var(--main);display:inline-block;padding:0 18px 4px}
+.type-admission .route{border:0}.type-admission .stub{background:repeating-linear-gradient(135deg,rgba(255,255,255,.5) 0 8px,transparent 8px 16px)}
+.type-admission .type-decor:before{content:"ADMIT TWO";position:absolute;right:22px;top:55px;border:2px solid var(--main);border-radius:50%;padding:13px 8px;transform:rotate(-12deg);font:bold 8px Georgia,serif;color:var(--main);opacity:.18}
+
+/* v3 crop editor — canvas based, independent from hidden-element measurements */
+.crop-modal[hidden]{display:none!important}.crop-modal{position:fixed;inset:0;z-index:9999;background:rgba(65,43,52,.48);display:grid;place-items:center;padding:18px}
+.crop-dialog{width:min(520px,100%);background:#fffafb;border:1px solid #e2b9c9;box-shadow:0 22px 70px rgba(70,35,49,.28);padding:16px}
+.crop-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #efd5df;padding-bottom:10px}.crop-head small{display:block;font:8px Georgia,serif;letter-spacing:2px;color:#bd7892}.crop-head strong{display:block;margin-top:3px;font:18px Georgia,serif;color:#b85f82}.crop-head button{border:0;background:transparent;color:#a56d82;font-size:25px;cursor:pointer}
+.crop-help{font-size:10px;line-height:1.6;color:#9a7784;margin:11px 0}
+.crop-stage{width:min(420px,100%);aspect-ratio:1/1;margin:auto;background:#f4e9ed;border:1px solid #dfbdca;overflow:hidden;touch-action:none;cursor:grab;position:relative}.crop-stage.dragging{cursor:grabbing}.crop-stage canvas{display:block;width:100%;height:100%;background:#f4e9ed}
+.crop-tools{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:end;margin-top:12px}.crop-tools label{margin:0}.crop-tools input{padding:0}.crop-tools button,.crop-actions button{border:1px solid #dfbdca;background:#fff;color:#9c6379;padding:9px 12px;border-radius:4px;cursor:pointer}.crop-status{min-height:16px;margin-top:7px;text-align:center;font-size:9px;color:#ad8795}.crop-actions{display:flex;justify-content:flex-end;gap:7px;margin-top:10px}.crop-actions .primary{background:#d77f9e;color:#fff;border-color:#d77f9e}
+body.crop-open{overflow:hidden}
+
+/* v5 — unmistakably different ticket-type designs */
+.ticket.type-love{border-radius:2px}
+.ticket.type-love .ticket-main{background:linear-gradient(135deg,#fff 0%,var(--paper) 48%,#fff 100%)}
+.ticket.type-love .topline{font-family:Georgia,serif}
+.ticket.type-love .pair-title strong{font-family:Georgia,serif;font-style:italic}
+.ticket.type-love .route{border-top:1px solid var(--main);border-bottom:1px solid var(--main)}
+.ticket.type-love .stub{background:linear-gradient(180deg,var(--paper),#fff)}
+
+.ticket.type-cinema{border:3px solid var(--main);border-radius:0}
+.ticket.type-cinema .ticket-main{padding-top:34px;padding-bottom:34px;background:var(--paper)}
+.ticket.type-cinema .topline{background:var(--main);color:#fff;padding:8px 10px;border:0}
+.ticket.type-cinema .pair-title strong{font-family:"Courier New",monospace;font-weight:900}
+.ticket.type-cinema .route{border:2px solid var(--main);box-shadow:inset 0 0 0 3px var(--paper),inset 0 0 0 4px var(--main)}
+.ticket.type-cinema .stub{background:#fff;border-left:3px dashed var(--main)}
+.ticket.type-cinema .stub-label:before{content:"🎬 ";font-family:Arial,sans-serif}
+
+.ticket.type-train{border:2px solid var(--main);border-radius:5px}
+.ticket.type-train .ticket-main{background:repeating-linear-gradient(0deg,var(--paper) 0 30px,#fff 30px 31px)}
+.ticket.type-train .topline{font-family:"Courier New",monospace;border-bottom:2px solid var(--main);padding-bottom:7px}
+.ticket.type-train .pair-title strong{font-family:"Courier New",monospace;font-style:normal;font-weight:bold}
+.ticket.type-train .route{background:var(--main);color:#fff;border:0}
+.ticket.type-train .route small,.ticket.type-train .route b,.ticket.type-train .route span{color:#fff}
+.ticket.type-train .stub{background:var(--paper);border-left:2px dashed var(--main)}
+.ticket.type-train .stub-label:before{content:"RAIL · "}
+
+.ticket.type-flight{border:0;border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+.ticket.type-flight .ticket-main{background:var(--paper);padding-top:38px}
+.ticket.type-flight .topline{position:absolute;left:0;right:0;top:0;background:var(--main);color:#fff;padding:10px 22px;font-family:Arial,sans-serif;font-weight:bold}
+.ticket.type-flight .pair-title strong{font-family:Arial,sans-serif;font-style:normal;font-weight:800}
+.ticket.type-flight .route{background:#fff;border:0;border-radius:8px}
+.ticket.type-flight .stub{background:#fff;border-left:2px dashed var(--main)}
+.ticket.type-flight .stub-label:before{content:"✈ "}
+
+.ticket.type-concert{border:3px solid var(--main);border-radius:8px}
+.ticket.type-concert .ticket-main{background:var(--main);color:#fff}
+.ticket.type-concert .topline,.ticket.type-concert .pair-title small,.ticket.type-concert .pair-title strong,.ticket.type-concert .message,.ticket.type-concert .keywords,.ticket.type-concert .photo-frame span,.ticket.type-concert .center-deco{color:#fff}
+.ticket.type-concert .photo-frame>div{border-color:#fff}
+.ticket.type-concert .route{border:2px solid #fff;background:transparent}
+.ticket.type-concert .route small,.ticket.type-concert .route b,.ticket.type-concert .route span{color:#fff}
+.ticket.type-concert .stub{background:#fff;color:var(--main);border-left:3px dashed var(--main)}
+.ticket.type-concert .stub *{color:var(--main)!important}
+.ticket.type-concert .barcode{background:repeating-linear-gradient(90deg,var(--main) 0 2px,transparent 2px 4px,var(--main) 4px 5px,transparent 5px 8px)}
+
+.ticket.type-admission{border:4px double var(--main);border-radius:0}
+.ticket.type-admission .ticket-main{background:var(--paper)}
+.ticket.type-admission .ticket-main:after{inset:12px;border:2px solid var(--main)}
+.ticket.type-admission .topline{border:1px solid var(--main);padding:7px 10px}
+.ticket.type-admission .pair-title strong{font-family:Georgia,serif;font-style:normal;text-decoration:underline;text-underline-offset:5px}
+.ticket.type-admission .route{border:1px dashed var(--main);background:#fff}
+.ticket.type-admission .stub{background:repeating-linear-gradient(135deg,#fff 0 8px,var(--paper) 8px 16px);border-left:3px double var(--main)}
