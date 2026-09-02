@@ -115,3 +115,52 @@ body.crop-open{overflow:hidden}
 .presets button[data-theme="mint"]{--sw:#6fae9b}.presets button[data-theme="sage"]{--sw:#87977a}.presets button[data-theme="lemon"]{--sw:#c6a63b}
 .presets button[data-theme="cream"]{--sw:#b58b68}.presets button[data-theme="mocha"]{--sw:#80665b}.presets button[data-theme="wine"]{--sw:#8f4058}
 .presets button[data-theme="navy"]{--sw:#405776}.presets button[data-theme="mono"]{--sw:#595959}.presets button[data-theme="blackpink"]{--sw:#d46f98}
+
+
+/* v8 — preview height / mobile clipping correction */
+.preview{
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  overflow:visible !important;
+}
+.capture{
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  overflow:visible !important;
+}
+.ticket{
+  flex-shrink:0;
+  max-height:none !important;
+}
+.ticket.portrait{
+  height:auto !important;
+  min-height:760px !important;
+  max-height:none !important;
+}
+@media(max-width:760px){
+  .preview{
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+    padding-bottom:18px !important;
+  }
+  .capture{
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+  }
+  .ticket{
+    transform:none !important;
+    max-width:100% !important;
+    max-height:none !important;
+  }
+  .ticket.portrait{
+    height:auto !important;
+    min-height:760px !important;
+  }
+}
